@@ -1,0 +1,116 @@
+title: "Alexův blog"
+author: "Alex"
+description: "Ostravačka a matfyzačka v jednom"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://andy.ggu.cz" # the base hostname & protocol for your site, e.g. http://example.com
+
+permalink: pretty
+
+# Set a path/url to a logo that will be displayed instead of the title
+#logo: "/assets/images/just-the-docs.png"
+
+# Enable or disable heading anchors
+heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "Repozitář":
+    - "https://github.com/andreamikulova/andreamikulova.github.io"
+  "Atom feed":
+    - "/feed.xml"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
+
+# Sort order for navigation links
+# nav_sort: case_insensitive # default, equivalent to nil
+nav_sort: case_sensitive # Capital letters sorted before lowercase
+
+# External navigation links
+nav_external_links:
+  - title: Meziklasí
+    url: https://meziklasi.cz/
+
+excerpt_separator: "<!--excerpt-end-->"
+
+#posts
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+
+# Footer last edited timestamp
+last_edit_time_format: "%d. %m. %Y" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
+color_scheme: dark
+
+callouts_level: loud # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+plugins:
+  - jektex
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Latex rendering settings
+jektex:
+  cache_dir: ".jekyll-cache"
+  ignore: ["*.xml", "*.css", "*.sass", "*.svg", "*.js", "*.map"]
+  macros:
+    - ["\\Q", "\\mathbb{Q}"]
+    - ["\\C", "\\mathbb{C}"]
+    - ["\\P", "\\mathbb{P}"]
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+  ignore:
+    envs: all
+
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - .jektex-cache
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+   - LICENSE
+   - README.md
+   - makefile
+   - docs
+
