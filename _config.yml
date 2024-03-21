@@ -1,4 +1,4 @@
-title: "Alexův blog"
+title:  "Alexův blog"
 author: "Alex"
 description: "Ostravačka a matfyzačka v jednom"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -15,7 +15,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Repozitář":
-    - "https://github.com/andreamikulova/andreamikulova.github.io"
+    - "https://github.com/Caldwell6/Caldwell6.github.io"
   "Atom feed":
     - "/feed.xml"
 
@@ -28,8 +28,8 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: Meziklasí
-    url: https://meziklasi.cz/
+  - title: Ségry blog
+    url: https://andy.ggu.cz/
 
 excerpt_separator: "<!--excerpt-end-->"
 
