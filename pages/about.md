@@ -6,26 +6,22 @@ nav_order: 2
 
 # O mně
 
-Jmenuji se Andrea Mikulová a jsem studentkou informatiky na Matematicko-fyzikální fakultě Univerzity Karlovy.
+Jmenuji se Alex Mikula. Na tomto blogu se zaměřuji na sdílení zápisků a poznatků ze svého studia, stejně jako na představení témat, která mě zaujala.
 
-Ve volném čase ráda cestuji, tančím, maluji a povaluji se po čajovnách. Občas zajdu na nějaký ten festival či koncert.
-
-{: .warning }
-> Ostrava
+Cílem tohoto blogu je poskytnout užitečné informace, podnítit intelektuální diskuzi a prezentovat zajímavosti, které rozšiřují obzory a povzbuzují k dalšímu studiu.
 
 
 ## Kontakt
 
-- Email: [andreamikulova02@gmail.com](mailto:andreamikulova02@gmail.com)
-- Matrix: [@andy:ks.matfyz.cz](https://matrix.to/#/@andy:ks.matfyz.cz)
-- Telegram: [@andymikulova](https://t.me/andymikulova)
-- Instragram: [@andymikulova](https://www.instagram.com/andymikulova/)
+- Email: [alexandr.mikula.st@vsb.cz](mailto:alexandr.mikula.st@vsb.cz)
+- Telegram: [@fey894jre04j1wq](https://t.me/fey894jre04j1wq)
 
 # O mém blogu
 
 Na tomto blogu najdete:
-- mou přípravu na maturitu z matematiky a informatiky
+- zápisky ze školy
+- překlady zajímavých článků
+- návody
 - mé [projekty](/pages/projects)
-- o čem jsem přednášela na [smršti](https://ksp.mff.cuni.cz/akce/smrst/2022/) :D
 - a mnoho dalšího
 
