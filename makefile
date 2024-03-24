@@ -3,7 +3,7 @@ SHELL=/usr/bin/sh
 .PHONY: run
 
 run:
-	bundle exec jekyll serve --trace --drafts
+	bundle exec jekyll serve --trace --drafts --livereload
 
 clean:
 	bundle exec jekyll clean --trace
