@@ -74,6 +74,7 @@ callouts:
 
 plugins:
   - jektex
+  - jekyll-tidy
 
 kramdown:
   syntax_highlighter_opts:
@@ -88,6 +89,11 @@ jektex:
     - ["\\Q", "\\mathbb{Q}"]
     - ["\\C", "\\mathbb{C}"]
     - ["\\P", "\\mathbb{P}"]
+
+jekyll_tidy:
+  exclude:
+    - "**/*.scss"
+    - "**/*.xml"
 
 compress_html:
   clippings: all
